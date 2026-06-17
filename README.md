@@ -1,89 +1,159 @@
-<!-- ============================================================ -->
-<!--                     ANIMATED HEADER                         -->
-<!-- ============================================================ -->
+<!-- HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Harsh%20Raj%20Shukla&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Built%20AI%20that%20ran%20in%20front%20of%20the%20PM%20%7C%20Top%202%25%20at%20India%20AI%20Summit%20%7C%2010x%20Hackathon%20Winner&descAlignY=60&descSize=15&descColor=00FF00" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%20👋%20I'm%20Harsh%20Raj%20Shukla&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=VBYLD'26%20Winner%20|%20SIH'24%20Finalist%20|%206x%20Hackathon%20Winner%20|%20MERN%20+%20AI%20+%20IoT&descAlignY=60&descSize=16&descColor=00FF00" width="100%"/>
-
-<!-- ============================================================ -->
-<!--                     TYPING ANIMATION                        -->
-<!-- ============================================================ -->
-
+<!-- TYPING ANIMATION -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=700&color=00FF00&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+(MERN+Stack)🔥;TypeScript+%2B+React+Engineer⚡;6x+Hackathon+Winner+🏆;SIH+2024+Finalist+🚀;Google+Student+Ambassador+🎤;TiEcon+2024+Finalist+🌍;Building+AI+%2B+IoT+That+Matters+💡" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=700&color=00FF00&center=true&vCenter=true&width=800&lines=Fullstack+Dev+%2B+AI+Engineer+%2B+IoT+Builder+🔥;VISUM+%7C+Third+Eye+%7C+PacketX+—+real+products%2C+real+impact;Presented+to+the+Prime+Minister+of+India+🇮🇳;Top+2%25+among+2+Lakh+at+India+AI+Summit+🤖;10x+Hackathon+Winner+%7C+SIH+2024+Finalist+🚀;Open+to+Work+%7C+Open+to+Collaborate+💡" />
 </p>
 
-<!-- ============================================================ -->
-<!--                     PROFILE BADGES                          -->
-<!-- ============================================================ -->
-
+<!-- BADGES -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Hr-shukla&label=👁%20Profile%20Views&color=brightgreen&style=flat-square" />
   <img src="https://img.shields.io/github/followers/Hr-shukla?label=🤝%20Followers&style=flat-square&color=00FF00" />
   <img src="https://img.shields.io/github/stars/Hr-shukla?label=⭐%20Stars&style=flat-square&color=00FF00" />
-  <img src="https://img.shields.io/badge/Focus-Open%20To%20Work-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Open%20To%20Work-brightgreen?style=flat-square" />
 </p>
 
 ---
 
-<!-- ============================================================ -->
-<!--                       ABOUT ME                              -->
-<!-- ============================================================ -->
-
 ## 💡 About Me
 
-```typescript
+````typescript
 const harsh: Developer = {
   name:     "Harsh Raj Shukla",
   location: "Roorkee, Uttarakhand, India 🇮🇳",
-  college:  "B.Tech CSE @ RIT Roorkee (2023–2027)",
-  roles:    ["Fullstack Dev", "AI Engineer", "IoT Builder"],
+  college:  "B.Tech CSE @ RIT Roorkee | VMBS Uttarakhand Technical University (2023–2027)",
+
+  roles:    ["Fullstack Developer", "AI Engineer", "IoT Builder"],
 
   currentlyBuilding: {
-    "🚗 VISUM":    "AI Driver Monitoring System",
-    "👓 Third Eye": "Smart Assistive Glasses for visually impaired"
+    "🚗 VISUM":     "AI Driver Monitoring System — real-time fatigue & distraction detection",
+    "👓 Third Eye": "Smart Assistive Glasses for the visually impaired"
   },
 
-  achievements: [
-    "🥇 VBYLD '26 Winner",
-    "🏆 6x Hackathon Champion",
-    "🚀 SIH 2024 Finalist",
-    "🌍 TiEcon 2024 Finalist",
-    "🎤 Google Student Ambassador",
-    "🧑‍💻 GDG On Campus RIT — Founding Member"
+  experience: [
+    "Software Developer Intern @ Arcoiris Logics (Jul–Sep 2025)",
+    "Google Student Ambassador @ Google (Sep 2025–Present)",
+    "Founding Member — GDG On Campus, RIT Roorkee",
+    "Event Head — Inkspire Club, RIT Roorkee"
   ],
 
-  experience:   "Software Engineer Intern @ Arcoiris Logics",
-  hobbies:      ["♟️ Chess", "🤸 Kabaddi", "🍳 Home Chef"],
-  motto:        () => "Build. Break. Improve. Repeat. 🔥"
+  biggestWins: [
+    "🇮🇳 Presented project before the Prime Minister of India",
+    "🏅 Award from Minister of Youth Affairs & Sports of India",
+    "🤖 Top 2% among 2 Lakh+ at India AI Impact Summit, Bharat Mandapam",
+    "🚀 Smart India Hackathon 2024 — National Finalist (Top 5 teams)",
+    "🏆 10x Hackathon Winner across national-level competitions"
+  ],
+
+  hobbies:  ["♟️ Chess", "🤸 Kabaddi", "🍳 Home Chef"],
+  motto:    () => "Build. Break. Improve. Repeat. 🔥"
 };
-```
+​```
 
 ---
 
-<!-- ============================================================ -->
-<!--                      TECH STACK                             -->
-<!-- ============================================================ -->
+## 🚀 Featured Projects
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### 🚗 VISUM — AI Driver Monitoring System
+> Real-time drowsiness & distraction detection
+
+- 👁️ EAR-based fatigue detection via **MediaPipe + OpenCV**
+- ⚡ **85% accuracy** at **30+ FPS** using TensorFlow Lite
+- 📡 **ESP32 IoT** integration with instant hardware alerts
+- 📊 Live fleet dashboard — **20+ concurrent sessions**
+- 🔧 Stack: **Python · React.js · Firebase · Node.js**
+
+[Demo 1](#) · [Demo 2](#)
+
+</td>
+<td width="50%" valign="top">
+
+### 👓 Third Eye — Smart Assistive Glasses
+> Computer vision for the visually impaired
+
+- 🎯 Real-time **object detection** pipeline
+- 🔊 Instant **audio guidance** feedback loop
+- 🧠 Powered by **TensorFlow + OpenCV**
+- 🍓 Edge inference on **Raspberry Pi**
+- 🌍 Accessibility-first, real-world impact
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔬 PacketX — Deep Packet Inspection Engine
+> High-performance network traffic analysis
+
+- ⚙️ C++ DPI engine with **multithreading + load balancing**
+- 🔍 5-tuple tracking + **TLS SNI extraction**
+- 📊 Real-time dashboard — **1000+ network flows**
+- 🔧 Stack: **C++ · React.js · Node.js · MongoDB**
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Food Safety Analytics Dashboard
+> Data platform covering Indian food safety records
+
+- 📈 **1000+ records** across Indian states (2018–2024)
+- 🔮 **Anomaly detection + linear regression** engine
+- 🔧 Stack: **React.js · Vite · Node.js · MongoDB · Recharts**
+
+[Demo](#) · [GitHub](#)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏅 Achievements — Named, Verified, Real
+
+<div align="center">
+
+| | Achievement | Scale & Context |
+|:---:|:---|:---|
+| 🇮🇳 | **Vikshit Bharat Young Leaders Dialog 2026 — Winner** | Represented Uttarakhand at national level · Presented before the **Prime Minister of India** · Award from **Minister of Youth Affairs & Sports** |
+| 🤖 | **AI Impact Buildathon — HCL × GUVI — Finalist** | Top **2% among 2 Lakh+** participants · India AI Impact Summit · Bharat Mandapam |
+| 🚀 | **Smart India Hackathon 2024 — National Finalist** | Top 5 teams in India |
+| 🥇 | **Ignition Hack — Winner ×2** | National-level 36hr hackathon · Gautam Buddha University |
+| 🥇 | **TRIKON 2.0 & 3.0 — Winner ×2** | National-level · MIET Meerut |
+| 🥇 | **TechOnMax — Winner ×3** | Annual Technical Hackathon · RIT Roorkee |
+| 🥇 | **GFG Hackathon — Winner ×2** | GeeksForGeeks national competition |
+| 💡 | **TiEcon 2024 — Finalist** | India's top young innovators platform |
+
+</div>
+
+> **10 hackathons. All named. All won.**
+
+---
 
 ## ⚡ Tech Arsenal
 
-### 🎨 Frontend *(Core Strength)*
+### 🎨 Frontend
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,vite,redux,tailwind&theme=dark" />
 </p>
 
 ### ⚙️ Backend & Database
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,firebase&theme=dark" />
+</p>
+
+### 🤖 AI / Computer Vision
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,pytorch&theme=dark" />
 </p>
 
 ### 💻 Languages
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,java&theme=dark" />
-</p>
-
-### 🤖 AI / ML
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,opencv&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=cpp,c,python,js&theme=dark" />
 </p>
 
 ### 🔌 IoT / Hardware
@@ -93,87 +163,21 @@ const harsh: Developer = {
 
 ### 🛠 Tools & Platforms
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,postman,figma&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,postman,figma,vercel&theme=dark" />
 </p>
 
 ---
 
-<!-- ============================================================ -->
-<!--                    FEATURED PROJECTS                        -->
-<!-- ============================================================ -->
+## 💼 Experience & Roles
 
-## 🚀 Featured Projects
-
-<table align="center">
-<tr>
-  <td width="50%" valign="top">
-
-### 🚗 VISUM — AI Driver Monitor
-> Real-time drowsiness & fatigue detection
-
-- 👁️ **MediaPipe + OpenCV** face mesh analysis
-- 🔔 **Arduino-integrated** hardware alert system
-- 📊 Live **fleet management dashboard**
-- 📍 Emergency alerts with **GPS location**
-- ⚡ Built with **React + TypeScript + Python**
-
-  </td>
-  <td width="50%" valign="top">
-
-### 👓 Third Eye — Smart Glasses
-> AI-powered vision for the visually impaired
-
-- 🎯 Real-time **object detection** pipeline
-- 🔊 Instant **audio guidance** feedback
-- 🧠 Powered by **TensorFlow + OpenCV**
-- 🍓 Runs on **Raspberry Pi** hardware
-- 🌍 Real-world **accessibility impact**
-
-  </td>
-</tr>
-<tr>
-  <td width="50%" valign="top">
-
-### 🔐 Password Generator
-> Secure password tool — React + TypeScript
-
-  </td>
-  <td width="50%" valign="top">
-
-### 📊 Social Media App
-> Fullstack MERN social platform
-
-  </td>
-</tr>
-</table>
+| Role | Where | When |
+|:---|:---|:---|
+| 🧑‍💻 Software Developer Intern | Arcoiris Logics | Jul – Sep 2025 |
+| 🎤 Google Student Ambassador | Google | Sep 2025 – Present |
+| 🏗️ Founding Member | GDG On Campus, RIT Roorkee | 2024 – Present |
+| 🎪 Event Head | Inkspire Club, RIT Roorkee | 2024 – Present |
 
 ---
-
-<!-- ============================================================ -->
-<!--                      ACHIEVEMENTS                           -->
-<!-- ============================================================ -->
-
-## 🏅 Achievement Board
-
-<div align="center">
-
-| 🏆 | Achievement | Details |
-|:---:|:---|:---|
-| 🥇 | **VBYLD '26 Winner** | National-level competition victory |
-| 🚀 | **SIH 2024 Finalist** | Smart India Hackathon — Top Teams |
-| 🌍 | **TiEcon 2024 Finalist** | India's top young innovators stage |
-| 🏆 | **6x Hackathon Winner** | Consistent national-level champion |
-| 🎤 | **Google Student Ambassador** | Google Developer Ecosystem |
-| 🧑‍💻 | **GDG Founding Member** | GDG On Campus RIT Roorkee |
-| 💼 | **SWE Intern** | Arcoiris Logics (Jul–Sep 2025) |
-
-</div>
-
----
-
-<!-- ============================================================ -->
-<!--                      GITHUB STATS                           -->
-<!-- ============================================================ -->
 
 ## 📊 GitHub Analytics
 
@@ -188,10 +192,6 @@ const harsh: Developer = {
 
 ---
 
-<!-- ============================================================ -->
-<!--                        TROPHIES                             -->
-<!-- ============================================================ -->
-
 ## 🏆 GitHub Trophies
 
 <p align="center">
@@ -200,10 +200,6 @@ const harsh: Developer = {
 
 ---
 
-<!-- ============================================================ -->
-<!--                    ACTIVITY GRAPH                           -->
-<!-- ============================================================ -->
-
 ## 📈 Contribution Graph
 
 <p align="center">
@@ -211,10 +207,6 @@ const harsh: Developer = {
 </p>
 
 ---
-
-<!-- ============================================================ -->
-<!--                    CONTRIBUTION SNAKE                       -->
-<!-- ============================================================ -->
 
 ## 🐍 Contribution Snake
 
@@ -228,10 +220,6 @@ const harsh: Developer = {
 
 ---
 
-<!-- ============================================================ -->
-<!--                      CONNECT                                -->
-<!-- ============================================================ -->
-
 ## 🌐 Let's Connect
 
 <p align="center">
@@ -243,10 +231,6 @@ const harsh: Developer = {
     <img src="https://img.shields.io/badge/Gmail-hrofficial6458%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://wa.me/918252386590" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-+91%208252386590-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-  </a>
-  &nbsp;
   <a href="https://github.com/Hr-shukla" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Hr--shukla-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
@@ -254,27 +238,16 @@ const harsh: Developer = {
 
 ---
 
-<!-- ============================================================ -->
-<!--                     DEV MANTRAS                             -->
-<!-- ============================================================ -->
-
-## ⚡ Dev Mantras
-
 ```diff
 + "Code is not just syntax — it's impact."
-+ "Frontend is not UI — it's experience."
-+ "AI + IoT = The future I'm actively building."
++ "Networking protocols are poetry written in packets."
 ! "Build. Break. Improve. Repeat. 🔥"
+​```
+
+<!-- FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&text=Let's%20Build%20Something%20Legendary%20🚀&fontSize=20&fontColor=00FF00&animation=twinkling&fontAlignY=65" width="100%"/>
 ```
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</p>
-
----
-
-<!-- ============================================================ -->
-<!--                    ANIMATED FOOTER                          -->
-<!-- ============================================================ -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer&text=Let's%20Build%20Something%20Legendary%20🚀&fontSize=20&fontColor=00FF00&animation=twinkling&fontAlignY=65" width="100%"/>
+Two things to do after pasting:
+1. Replace all `[Demo 1](#)`, `[Demo 2](#)`, `[Demo](#)`, `[GitHub](#)` placeholders with your actual links
+2. Share your portfolio URL and I'll add it as a badge in the connect section
